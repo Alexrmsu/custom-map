@@ -9,6 +9,7 @@ import { FullscreenComponent } from './fullscreen/fullscreen.component';
 import { MarkersComponent } from './markers/markers.component';
 import { ZoomRangeComponent } from './zoom-range/zoom-range.component';
 import { PropertiesComponent } from './properties/properties.component';
+import { SharedComponent } from './shared/shared.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PropertiesComponent } from './properties/properties.component';
     FullscreenComponent,
     MarkersComponent,
     ZoomRangeComponent,
-    PropertiesComponent
+    PropertiesComponent,
+    SharedComponent
   ],
   imports: [
     BrowserModule,
